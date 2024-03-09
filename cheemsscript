@@ -86,9 +86,14 @@ end)
 
 Tab1Section:NewButton("力量传奇Muscle Legends","自动锻炼等等功能 修改速度跳跃",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/harisiskandar178/Roblox-Script/main/Muscle%20Legend"))()
-end) // String"
-local buff = ""
+end) Here // String"
+
+local buff = "jwhshbfkfnfvfvfbdndbvdbddjdbbdbdhdbdbdbdbdbdjfjdjbfvtctbtjwijwbdbbdbdjsjbdbdktbthjebbdjfbbfjfkdjdbndjksjdbb"
+
 for v=1,string.len(Script) do
+
 buff=buff..'\\'..string.byte(Script,v)
+
 end
+
 print(buff)
