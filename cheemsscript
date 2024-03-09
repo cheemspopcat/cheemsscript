@@ -95,5 +95,3 @@ for v=1,string.len(Script) do
 buff=buff..'\\'..string.byte(Script,v)
 
 end
-
-print(buff)
