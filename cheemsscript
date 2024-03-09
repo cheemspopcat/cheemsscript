@@ -1,4 +1,4 @@
-local Script = "local kavoUi = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+local kavoUi = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
 local window = kavoUi.CreateLib("修狗脚本","BloodTheme")
  
 ---Tabs
@@ -86,12 +86,4 @@ end)
 
 Tab1Section:NewButton("力量传奇Muscle Legends","自动锻炼等等功能 修改速度跳跃",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/harisiskandar178/Roblox-Script/main/Muscle%20Legend"))()
-end) Here // String"
-
-local buff = "jwhshbfkfnfvfvfbdndbvdbddjdbbdbdhdbdbdbdbdbdjfjdjbfvtctbtjwijwbdbbdbdjsjbdbdktbthjebbdjfbbfjfkdjdbndjksjdbb"
-
-for v=1,string.len(Script) do
-
-buff=buff..'\\'..string.byte(Script,v)
-
-end
+end)
